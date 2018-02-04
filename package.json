@@ -1,0 +1,11 @@
+{
+  "name": "spud-bot",
+  "version": "1.0.0",
+  "description": "My own Discord bot",
+  "main": "bot.js",
+  "author": "geoffrey.bulot@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
+}
