@@ -6,6 +6,8 @@
   "author": "geoffrey.bulot@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.3.0"
+    "axios": "^0.17.1",
+    "discord.js": "^11.3.0",
+    "fs": "0.0.1-security"
   }
 }
