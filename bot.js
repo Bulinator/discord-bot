@@ -37,7 +37,6 @@ fs.readdir('./commands/', (err, files) => {
 
     let props = require(`./commands/${file}`);
     console.log(`Loading Command: ${props.help.name}...`);
-    console.log(props);
     bot.commands.set(props.help.name, props);
     // build aliases
     props.conf.aliases.forEach(alias => {
